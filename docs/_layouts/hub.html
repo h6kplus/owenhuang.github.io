@@ -14,9 +14,7 @@
             {{ page.description | markdownify }}
             <section class="links">
                 <h2>Links</h2>
-                {% if page.citekey %}
-                <!-- {% nocite page.citekey %} -->
-                {% bibliography --cited --template pubhublinkstemplate %} {% else %}
+                {% bibliography --cited --template pubhublinkstemplate %}
                 <ol class="link-list">
                     {% include hubadditionallinks.html %}
                 </ol>
