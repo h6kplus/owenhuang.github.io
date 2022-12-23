@@ -1,6 +1,6 @@
 # Site Settings
 baseurl: "/owenhuang.github.io" # the subpath of your site, e.g. /blog
-url: "https://h6kplus.github.io/" # the base hostname & protocol for your site, 
+url: "https://h6kplus.github.io" # the base hostname & protocol for your site, 
 
 # Features Setting
 # Turn subpages on or off
