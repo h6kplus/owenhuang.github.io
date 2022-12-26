@@ -1,34 +1,60 @@
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+image: assets/img/avatar.jpg
+username: Yidong Huang
+description: 
+  Hi, my name is Yidong Huang, and I'm a senior student at University of Michigan, majoring in computer science.
+  
+interest: My main interest is **<u>embodied AI</u>**. I'm especially interested in building
+   building **<u>task-learning agents</u>**, 
+  which is able to interact with humans and their environment. 
+   
+outside-work:
+  Aside from work, I'm interested in all kinds of sports, playing and developing games, 
+  watching animations, and connecting with all kinds of people. If you have any interest in common,
+  please contact me via email!
+
+call-for-work:
+  I'm currently applying for PhD and Master programs for fall 2023. and I'm actively seeking summer intern for 2023. 
+  If you have any opportunity, please feel free to contact me.
+
 experience: # Remove for hiding the experience section
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2022-09-01
+    end: now
+    experience : University of Michigan
+    program: B.S.E in Computer Science 
+  - start: 2019-09-01
+    end: now
+    experience : Shanghai Jiao Tong Univeristy 
+    program: B.S.E in Electronic and Computer Engineering
+  - start: 2016-09-01
+    end: 2019-06-30
+    experience : No. 2 High School of East China Normal University
 interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
-skills: # Remove for hiding the skills section
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  - 
+    experience : Situated Language and Embodied Dialogue (SLED) lab
+    program: Undergraduate Research Assistant
+  - 
+    experience : Intelligent Networked Systems Lab
+    program: Undergraduate Research Assistant
 social:
-  email:  # Full email address, e.g. "sample@google.com"
+  email: owenhji@umich.edu # Full email address, e.g. "sample@google.com"
   orcid: 
-  scholar: 
+  scholar: SdEBnsoAAAAJ&hl
   publons: 
   research_gate: 
   dblp:  # Full URL
   semantic_scholar:  # Full URL
   linkedin:  # Full URL 
-  github: chrjabs
+  github: h6kplus
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
-  mastodon: https://mastodon.social
-  twitter: chrjabs
+  mastodon: 
+  twitter: owenhuang117
   youtube:
   facebook:
   instagram:
 awards: # Remove for hiding the awards section
-  - "This is an award I got"
+  - Embodied AI
+  - Natural Language Processing
+  - Reinforcement Learning for NLP
+  - Computer Vision
