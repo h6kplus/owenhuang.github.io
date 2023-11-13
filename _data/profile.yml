@@ -3,26 +3,28 @@ username: Yidong Huang
 description: 
   Hi, my name is Yidong Huang, and I'm a senior student at University of Michigan, majoring in computer science.
   
-interest: My main interest is **<u>embodied AI</u>**. I'm especially interested in building
-   building **<u>task-learning agents</u>**, 
-  which is able to interact with humans and their environment. 
-   
+interest:
+   I specialize in **<u>Embodied Artificial Intelligence</u>** and the development of **<u>Task-Learning Agents</u>** that interact with humans and environments. My focus is on enabling these agents to make autonomous decisions through observation of different modalities. 
 outside-work:
   Aside from work, I'm interested in all kinds of sports, playing and developing games, 
   watching animations, and connecting with all kinds of people. If you have any interest in common,
   please contact me via email!
 
 call-for-work:
-  I'm currently applying for PhD and Master programs for fall 2023. and I'm actively seeking summer intern for 2023. 
+  I'm actively seeking summer intern for 2024, and I will be applying for Phd at Fall 2025. 
   If you have any opportunity, please feel free to contact me.
 
 experience: # Remove for hiding the experience section
-  - start: 2022-09-01
+  - start: 2023-09-01
     end: now
+    experience : University of Michigan
+    program: MS in Computer Science 
+  - start: 2021-09-01
+    end: 2023-04-30
     experience : University of Michigan
     program: B.S.E in Computer Science 
   - start: 2019-09-01
-    end: now
+    end: 2023-08-01
     experience : Shanghai Jiao Tong Univeristy 
     program: B.S.E in Electronic and Computer Engineering
   - start: 2016-09-01
@@ -43,7 +45,7 @@ social:
   research_gate: 
   dblp:  # Full URL
   semantic_scholar:  # Full URL
-  linkedin:  # Full URL 
+  linkedin: https://www.linkedin.com/in/yidong-huang-61a86423b/ # Full URL 
   github: h6kplus
   gitlab: 
   bitbucket: 
@@ -56,5 +58,5 @@ social:
 awards: # Remove for hiding the awards section
   - Embodied AI
   - Natural Language Processing
+  - Diffusion Models
   - Reinforcement Learning for NLP
-  - Computer Vision

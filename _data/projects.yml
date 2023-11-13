@@ -40,5 +40,9 @@
       alt: 
     date: 11/2021 &ndash; 12/2021
     title: A-ESRGAN, Training Real-World Blind Super-Resolution with Attention U-Net Discriminators
-    summary: This is a Dummy
-    description:  
+    summary: Admitted to PRICAI 2022
+    description: In the field of Computer Vision, my work focuses on a novel approach to Blind Image Super-Resolution (SR), a task aimed at restoring low-resolution images affected by complex, unknown distortions. My key contribution is the development of A-ESRGAN, an innovative Generative Adversarial Network (GAN) model featuring an attention U-Net based, multi-scale discriminator. This model stands out as the first to integrate attention U-Net structure as a discriminator in GAN for addressing blind SR challenges.
+    
+      My research addresses the limitations of existing GAN structures that neglect an image's structural features, leading to issues like twisted lines and background anomalies. A-ESRGAN overcomes these through its unique design, enabling enhanced focus on structural details across multiple scales. The result is a breakthrough in generating more perceptually realistic high-resolution images.
+
+      This work not only sets a new benchmark in the non-reference natural image quality evaluator (NIQE) metric but also demonstrates, through extensive ablation studies, how the RRDB-based generator in A-ESRGAN effectively leverages image structural features, outperforming previous models in blind SR tasks.
