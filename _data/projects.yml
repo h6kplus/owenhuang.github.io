@@ -1,6 +1,31 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://sled-group.github.io/InfEdit/ # Full URL
+    image:
+      path: "infedit_gif.gif" # path: assets/project/
+    date: 09/2022 &ndash; 11/2023
+    title: Inversion-Free Image Editing with Natural Language
+    summary: https://arxiv.org/abs/2312.04965
+    description: Despite recent advances in inversion-based editing, text-guided image manipulation remains challenging for diffusion models. The primary bottlenecks include 1) the time-consuming nature of the inversion process; 2) the struggle to balance consistency with accuracy; 3) the lack of compatibility with efficient consistency sampling methods used in consistency models. To address the above issues, we start by asking ourselves if the inversion process can be eliminated for editing. We show that when the initial sample is known, a special variance schedule reduces the denoising step to the same form as the multi-step consistency sampling. We name this Denoising Diffusion Consistent Model (DDCM), and note that it implies a virtual inversion strategy without explicit inversion in sampling. We further unify the attention control mechanisms in a tuning-free framework for text-guided editing. Combining them, we present inversion-free editing (InfEdit), which allows for consistent and faithful editing for both rigid and non-rigid semantic changes, catering to intricate modifications without compromising on the image's integrity and explicit inversion. Through extensive experiments, InfEdit shows strong performance in various editing tasks and also maintains a seamless workflow (less than 3 seconds on one single A40), demonstrating the potential for real-time applications.
+
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://cyclenetweb.github.io/ # Full URL
+    image:
+      path: "cyclenet.png" # path: assets/project/
+    date: 03/2023 &ndash; 06/2023
+    title: CycleNet, Rethinking Cycle Consistency in Text-Guided Diffusion for Image Manipulation
+    summary: Admitted to NeurIPS 2023
+    description: Diffusion models (DMs) have enabled breakthroughs in image synthesis tasks but lack an intuitive interface for consistent image-to-image (I2I) translation. Various methods have been explored to address this issue, including mask-based methods, attention-based methods, and image-conditioning. However, it remains a critical challenge to enable unpaired I2I translation with pre-trained DMs while maintaining satisfying consistency. This paper introduces Cyclenet, a novel but simple method that incorporates cycle consistency into DMs to regularize image manipulation. We validate Cyclenet on unpaired I2I tasks of different granularities. Besides the scene and object level translation, we additionally contribute a multi-domain I2I translation dataset to study the physical state changes of objects. Our empirical studies show that Cyclenet is superior in translation consistency and quality, and can generate high-quality images for out-of-domain distributions with a simple change of the textual prompt. Cyclenet is a practical framework, which is robust even with very limited training data (around 2k) and requires minimal computational resources (1 GPU) to train.
+
+
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://arxiv.org/abs/2210.12511 # Full URL
     image:
       path: "dorothie.png" # path: assets/project/
@@ -8,7 +33,7 @@
     date: 02/2022 &ndash; 06/2022
     title: DOROTHIE, Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents
     summary: Admitted to findings of EMNLP 2022
-    description: we tackled the limitations of vision-language navigation tasks, where most existing approaches were limited in their ability to navigate in a continuous and dynamic environment and communicate with humans in free-form. To address these limitations and collect data, we extended the traditional Wizard of Oz study and proposed the duo-wizard setup. This allowed us to add dynamic changes in the environment and tasks to the simulation, which provided a more realistic testbed for evaluating an agent's ability to communicate and navigate.
+    description: We tackled the limitations of vision-language navigation tasks, where most existing approaches were limited in their ability to navigate in a continuous and dynamic environment and communicate with humans in free-form. To address these limitations and collect data, we extended the traditional Wizard of Oz study and proposed the duo-wizard setup. This allowed us to add dynamic changes in the environment and tasks to the simulation, which provided a more realistic testbed for evaluating an agent's ability to communicate and navigate.
 #     contents:
 #         - title: 1. Portfolio Page
 #           image:
