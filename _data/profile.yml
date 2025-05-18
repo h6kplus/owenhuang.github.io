@@ -1,22 +1,24 @@
 image: assets/img/avatar.jpg
 username: Yidong Huang
-description: 
-  Hi, my name is Yidong Huang, and I'm a senior student at University of Michigan, majoring in computer science.
-  
+description:
+  I'm a incoming CS Ph.D. student at UNC Chapel Hill, advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/). I obtained my master degree from University of Michigan advised by [Prof. Joyce Chai](https://web.eecs.umich.edu/~chaijy/). In my master time, I also interned at Boson AI, supervised by [Yi Zhu](https://bryanyzhu.github.io/). Before that, I got my bachelor degree from University of Michigan and Shanghai Jiao Tong University. 
+
 interest:
-   I specialize in **<u>Embodied Artificial Intelligence</u>** and the development of **<u>Task-Learning Agents</u>** that interact with humans and environments. My focus is on enabling these agents to make autonomous decisions through observation of different modalities. 
+  I specialize in <u>Embodied Artificial Intelligence</u> and the <u>Generative AI</u> that interact with humans and their environments. My current research goal is to create AI agents beyond mere perception and reactive generation, to develop rich representations of the world and human partners, enabling deliberative planning and collaboration with humans.
+
 outside-work:
-  Aside from work, I'm interested in all kinds of sports, playing and developing games, 
-  watching animations, and connecting with all kinds of people. If you have any interest in common,
-  please contact me via email!
+  Beyond work, I enjoy all kinds of sports, building and playing games, watching animations, and connecting with people from diverse backgrounds. If we share any interests, feel free to reach out!
 
 call-for-work:
-  I'm actively seeking summer intern for 2024, and I will be applying for Phd at Fall 2025. 
-  If you have any opportunity, please feel free to contact me.
+  I’m always open to research collaborations, project ideas, or just a good conversation. Feel free to contact me via email!
 
 experience: # Remove for hiding the experience section
+  - start: 2025-08-01
+    end: 
+    experience : The University of North Carolina at Chapel Hill
+    program: Ph.D. in Computer Science 
   - start: 2023-09-01
-    end: now
+    end: 2025-04-31
     experience : University of Michigan
     program: MS in Computer Science 
   - start: 2021-09-01
@@ -31,14 +33,17 @@ experience: # Remove for hiding the experience section
     end: 2019-06-30
     experience : No. 2 High School of East China Normal University
 interests: # Remove for hiding the interests section
+  -
+    experience : MURGe-Lab (UNC-NLP Group)
+    program: Graduate Research Assistant
+  - 
+    experience : Boson AI
+    program: Research Intern
   - 
     experience : Situated Language and Embodied Dialogue (SLED) lab
-    program: Undergraduate Research Assistant
-  - 
-    experience : Intelligent Networked Systems Lab
-    program: Undergraduate Research Assistant
+    program: Research Assistant
 social:
-  email: owenhji@umich.edu # Full email address, e.g. "sample@google.com"
+  email: owenh@cs.unc.edu # Full email address, e.g. "sample@google.com"
   orcid: 
   scholar: SdEBnsoAAAAJ&hl
   publons: 
@@ -57,6 +62,6 @@ social:
   instagram:
 awards: # Remove for hiding the awards section
   - Embodied AI
-  - Natural Language Processing
-  - Diffusion Models
-  - Reinforcement Learning for NLP
+  - Generative AI
+  - Multimodal Learning
+  
